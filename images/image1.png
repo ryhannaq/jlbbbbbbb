@@ -3,10 +3,11 @@ Projeto/
 ├── index.html
 │
 └── images/
-    ├── image1.png - file:///media/fuse/drivefs-126b179a4738d273d2c924d32a9e30d9/root/image2.png
-    ├── image2.png
-    ├── image3.png
-    └── image4.png
+    ├── <img src="images/image1.png">
+    ├── <img src="images/image2.png">
+    ├── <img src="images/image3.png">
+    └── <img src="images/image4.png">
+
 file:///media/fuse/drivefs-126b179a4738d273d2c924d32a9e30d9/root/image2.png
 <img src="images/image1.png">
 <img src="images/image2.png">
