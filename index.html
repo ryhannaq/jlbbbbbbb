@@ -521,38 +521,49 @@ footer{
     }
 
 }
-
-.vida-img{
-    width:300px;
-    max-width:100%;
-    height:auto;
-    display:block;
-    margin:0 auto 20px;
-    border-radius:20px;
+.vida{
+    display:grid;
+    grid-template-columns:320px 1fr;
+    gap:30px;
+    align-items:center;
 }
 
-</style>
+.vida img{
+    width:100%;
+    border-radius:25px;
+}
 
+@media(max-width:900px){
+
+    .vida{
+        grid-template-columns:1fr;
+    }
+
+}
 
 <div>
         
-    <img class="vida-img" src="image/image5.png" alt="Bob Esponja">
+   <section class="card vida" id="vida">
+
+  <img class="vida-img" src="image/image5.png" alt="Bob Esponja">
         
-    <h2>Vida na Fenda do Biquíni</h2>
+    <div>
 
-    <p>
-        Bob Esponja vive em um abacaxi no fundo do mar ao lado de seu fiel caracol Gary.
-    </p>
+        <h2>Vida na Fenda do Biquíni</h2>
 
-    <p>
-        Seu melhor amigo é Patrick Estrela e juntos vivem aventuras engraçadas.
-    </p>
+        <p>
+            Bob Esponja vive em um abacaxi no fundo do mar ao lado de seu fiel caracol Gary.
+        </p>
 
-    <p>
-        Ele trabalha como cozinheiro no Siri Cascudo e sonha em conseguir sua licença de barco.
-    </p>
-        
-</div>
+        <p>
+            Seu melhor amigo é Patrick Estrela e juntos vivem aventuras engraçadas.
+        </p>
+
+        <p>
+            Ele trabalha como cozinheiro no Siri Cascudo e sonha em conseguir sua licença de barco.
+        </p>
+
+    </div>
         
 </section>
 
